@@ -24,7 +24,7 @@ function BoardingEase() {
     <div >
       <header style={backgroundStyles}>
         <div style={{padding:"50px"}} >
-          <strong><h1  className="container" style={{color:"white"}}>Discover My Perfect</h1></strong>
+          <strong><h1  className="container" style={{color:"white"}}>Discover Your Perfect</h1></strong>
           <strong><h1 className="container" style={{color:"white"}}>Stay with</h1></strong>
           <strong><h1 className="container"  style={{color:"white"}}>BoardingEase</h1></strong>
           <h3 className="container" style={{color:"white"}}>Welcome to BoardingEase, </h3>
