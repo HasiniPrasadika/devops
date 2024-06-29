@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  backend:
+    build: ./BACKEND
+    ports:
+      - '8070:8070'
+    environment:
+      - MONGODB_URI=mongodb+srv://Hasinipm:Hpmmph0917hpm@bhr-webapp.a67jcch.mongodb.net/bhr_db?retryWrites=true&w=majority
+
+  frontend:
+    build: ./frontend
+    ports:
+      - '3000:3000'
+      
